@@ -1,0 +1,23 @@
+{
+  "name": "atlas",
+  "version": "0.0.1",
+  "description": "Atlas is a nodejs Webcrawler.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/t4ks/atlas.git"
+  },
+  "author": "taylorks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/t4ks/atlas/issues"
+  },
+  "homepage": "https://github.com/t4ks/atlas",
+  "dependencies": {
+    "request": "^2.53.0",
+    "vulcan": "git+ssh://git@github.com:t4ks/vulcan.git#master"
+  }
+}
