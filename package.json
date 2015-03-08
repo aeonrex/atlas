@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/t4ks/atlas",
   "dependencies": {
+    "mocha": "^2.2.0",
     "request": "^2.53.0",
+    "should": "^5.1.0",
     "vulcan": "git+ssh://git@github.com:t4ks/vulcan.git#master"
   }
 }
