@@ -8,7 +8,8 @@ var request = require('request'),
     util = require('vulcan').util,
     found = require('../found'),
     frontier = require('../frontier'),
-    frontierItem = require('../models/frontierItem'),
+    requestCount = 0,
+    CrawlItem = require('../models/crawlItem'),
     options = {
         method: 'GET'
     };
@@ -16,14 +17,15 @@ var request = require('request'),
 //TODO: make the main task performing a GET on a frontierItem
 
 
-module.exports = function (frontierItem, textCallback, audioCallback, videoCallback, imageCallback, applicationCallback) {
+module.exports = function (crawlItem, textCallback, audioCallback, videoCallback, imageCallback, applicationCallback) {
 
-    if (!frontierItem || !frontierItem.url) {
+    if (!crawlItem || !crawlItem.url) {
         // TODO: I don't like this, but MOVE FAST!
+        console.log(crawlItem);
         throw require('../errors/InvalidFrontierItemError')();
     }
     var opt = util.copy(options);
-    opt.url = frontierItem.url;
+    opt.uri = crawlItem.url;
 
     textCallback = textCallback || function () {
     };
@@ -36,16 +38,21 @@ module.exports = function (frontierItem, textCallback, audioCallback, videoCallb
     applicationCallback = applicationCallback || function () {
     };
 
-    request(options, function (err, res, body) {
+    request(opt, function (err, res, body) {
         var contentType;
         //check success
-
-        if (res.statusCode !== 200) {
-            throw require('../errors/UnSuccessfulRequestError')(res.statusCode);
+        console.log('Request Count: ' + (++requestCount));
+        if (err) {
+            throw err;
         }
 
-        frontierItem.data = body;
+        if (res.statusCode !== 200) {
+             return require('../errors/UnSuccessfulRequestError')(res.statusCode, opt.uri);
+        }
+        console.log(crawlItem);
+        crawlItem.data = body;
 
+        //console.log(body);
         // check mime type? switch? for specified mime? YES MIMES ARE IMPORTANT, make something that figures out its type
         // ex. image (png, jpeg, gif, etc) text( html, json, xml, etc), audio (mp3, mp4, m**, ogg), video (avi, movie, etc.)
         // maybe.... is it necessary for it's own right?
@@ -62,27 +69,29 @@ module.exports = function (frontierItem, textCallback, audioCallback, videoCallb
             case 'text':
                 // most important since html is a text subtype
 
-                if (mime.getSubType(contentType) === 'html') {
+                if (mime.getSubType(contentType).match(/html/)) {
                     // time to get links.
-                    var links = found.findLinks(frontierItem.url, body);
+                    var links = found.findLinks(crawlItem.url, body);
 
                     frontier.add(links.map(function (link) {
-                        return frontierItem(link, frontierItem.url);
+                        return CrawlItem(link, crawlItem.url);
                     }));
+
+                    console.log('Frontier size: ' + frontier.size());
                 }
-                textCallback(frontierItem);
+                textCallback(crawlItem);
                 break;
             case 'audio':
-                audioCallback(frontierItem);
+                audioCallback(crawlItem);
                 break;
             case 'video':
-                videoCallback(frontierItem);
+                videoCallback(crawlItem);
                 break;
             case 'image':
-                imageCallback(frontierItem);
+                imageCallback(crawlItem);
                 break;
             case 'application':
-                applicationCallback(frontierItem);
+                applicationCallback(crawlItem);
                 break;
             default:
                 break;

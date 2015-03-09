@@ -1560,7 +1560,10 @@
       "extension": ".psd",
       "contentType": "application/octet-stream"
     },
-    {"extension": ".pvu	paleovu/x-pv"},
+    {
+      "extension": ".pvu",
+      "contentType": "paleovu/x-pv"
+    },
     {
       "extension": ".pwz",
       "contentType": "application/vnd.ms-powerpoint"

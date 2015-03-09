@@ -26,11 +26,13 @@ var findLinks = function (url, html) {
 
         results = links.filter(function (link) {
             if (link && link.link) {
-                return !contains(link.link) && !util.arrayMatch(blackList, link.link.toLowerCase());
+                if (!contains(link.link) && !util.arrayMatch(blackList, link.link.toLowerCase())) {
+                    add(link.link);
+                    return true;
+                }
             }
             return false;
         }).map(function (link) {
-            add(link.link);
             return link.link;
         });
 
@@ -42,5 +44,6 @@ var findLinks = function (url, html) {
 module.exports = {
     contains: contains,
     add: add,
-    findLinks: findLinks
+    findLinks: findLinks,
+    self: found
 };

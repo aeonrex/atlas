@@ -5,4 +5,6 @@
 
 var vulcan = require('vulcan');
 
-vulcan.setup();
+vulcan.hammer(function () {
+    require('./app/atlas')();
+});

@@ -1,9 +1,8 @@
 /**
  * Created by taylorks on 3/7/15.
  */
-'use strict';
-
 module.exports = function (url, parent) {
+    'use strict';
     return {
         url: url,
         data: null,

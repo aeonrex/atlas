@@ -3,22 +3,30 @@
  */
 'use strict';
 
-var queue = [];
+var frontier = [];
 
-module.exports.add = function (urls) {
+var add = function (urls) {
     if (Array.isArray(urls)) {
-        queue = queue.concat(urls);
+        frontier = frontier.concat(urls);
     } else {
-        queue.push(urls);
+        frontier.push(urls);
     }
 };
 
-module.exports.dequeue = function () {
-    return queue.shift();
+var dequeue = function () {
+    return frontier.shift();
 };
 
 
-module.exports.size = function () {
-    return queue.length;
+var size = function () {
+    return frontier.length;
 };
 
+
+
+module.exports = {
+    add: add,
+    dequeue: dequeue,
+    size: size,
+    self: frontier
+};
