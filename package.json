@@ -21,6 +21,7 @@
     "mocha": "^2.2.0",
     "request": "^2.53.0",
     "should": "^5.1.0",
+    "linkscrape": "git+ssh://git@github.com:t4ks/node-linkscrape.git#parse-addition",
     "vulcan": "git+ssh://git@github.com:t4ks/vulcan.git#master"
   }
 }

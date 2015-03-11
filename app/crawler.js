@@ -13,9 +13,9 @@ function Crawler(options) {
     options = options || {};
 
     this.seedBatchSize = options.seedBatchSize || 1;
-    this.frontierBatchSize = options.frontierBatchSize || 100;
-    this.frontierLimit = options.frontierLimit || 500;
-    this.maxQueued = options.maxQueued || 100;
+    this.frontierBatchSize = options.frontierBatchSize || 500;
+    this.frontierLimit = options.frontierLimit || 1000;
+    this.maxQueued = options.maxQueued || 1000;
 
     this.dispatcher = new Dispatcher(options);
 }
@@ -46,17 +46,21 @@ Crawler.prototype.frontierCrawl = function () {
 
     return setInterval(function () {
         console.log('Task Count: ' + self.dispatcher.getTaskCount());
-        if (self.dispatcher.getTaskCount() >= self.maxQueued) {
+        if (frontier.size() >= self.frontierLimit) {
             console.log('Too much stuff going on');
             return;
         }
 
-        var crawlItems = [];
-        for (i = 0; i < self.frontierBatchSize; ++i) {
+        var batchSize = (frontier.size() >= self.frontierBatchSize) ? self.frontierBatchSize : frontier.size(),
+            crawlItems = [];
+
+        for (i = 0; i < batchSize; ++i) {
+            console.log('Crawl batch item #' + i);
             crawlItems.push(frontier.dequeue());
         }
 
         self.dispatcher.dispatch(crawlItems);
+
     }, 5000);
 };
 

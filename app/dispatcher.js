@@ -18,7 +18,7 @@ function Dispatcher(options) {
         return resources.filter(function (res) {
             return res;
         }).map(function (resource) {
-
+            self.taskCount++;
             return function () {
                 visitTask(resource);
                 self.taskCount--;
@@ -53,8 +53,6 @@ Dispatcher.prototype.dispatch = function (resources) {
 
     var self = this,
         tasks = self.prepare(resources);
-
-    self.taskCount += tasks.length;
 
     // TODO: split into concurrent batches, then per each iteration to async.parallel
     self.loopTimeout(0, tasks.length, self.requestTimeout, function (i) {

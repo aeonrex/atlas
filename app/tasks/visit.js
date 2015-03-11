@@ -43,11 +43,11 @@ module.exports = function (crawlItem, textCallback, audioCallback, videoCallback
         //check success
         console.log('Request Count: ' + (++requestCount));
         if (err) {
-            throw err;
+            return console.log(err);
         }
 
         if (res.statusCode !== 200) {
-             return require('../errors/UnSuccessfulRequestError')(res.statusCode, opt.uri);
+             return console.log(require('../errors/UnSuccessfulRequestError')(res.statusCode, opt.uri));
         }
         console.log(crawlItem);
         crawlItem.data = body;
