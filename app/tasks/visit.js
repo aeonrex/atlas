@@ -71,11 +71,11 @@ module.exports = function (crawlItem, textCallback, audioCallback, videoCallback
 
                 if (mime.getSubType(contentType).match(/html/)) {
                     // time to get links.
-                    var links = found.findLinks(crawlItem.url, body);
-
-                    frontier.add(links.map(function (link) {
-                        return CrawlItem(link, crawlItem.url);
-                    }));
+                    found.findLinks(crawlItem.url, body, function (links) {
+                        frontier.add(links.map(function (link) {
+                            return CrawlItem(link, crawlItem.url);
+                        }));
+                    });
 
                     console.log('Frontier size: ' + frontier.size());
                 }

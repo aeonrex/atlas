@@ -3,17 +3,32 @@
  */
 'use strict';
 
-var frontier = [];
+var frontier = [],
+    inProcess = false,
+    dataProvider = require('./dataProviders/mongodb/frontier');
 
 var add = function (urls) {
-    if (Array.isArray(urls)) {
-        frontier = frontier.concat(urls);
-    } else {
-        frontier.push(urls);
-    }
+    /* if (Array.isArray(urls)) {
+     frontier = frontier.concat(urls);
+     } else {
+     frontier.push(urls);
+     } */
+
+    dataProvider.insertBatch(urls);
 };
 
 var dequeue = function () {
+
+    if (frontier.length === 0 && inProcess === false) {
+      //  console.log("dequeue:: " + frontier.length + ' ' + inProcess );
+        inProcess = true;
+        dataProvider.getNextBatch(1000, function (results) {
+            console.log('getNextBatch::callback '+ results);
+            frontier = results;
+            inProcess = false;
+        });
+    }
+
     return frontier.shift();
 };
 
@@ -21,7 +36,6 @@ var dequeue = function () {
 var size = function () {
     return frontier.length;
 };
-
 
 
 module.exports = {

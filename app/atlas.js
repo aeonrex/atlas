@@ -25,9 +25,9 @@ module.exports = function () {
 
         _seedProcess = crawler.seedCrawl(),
 
-        _frontierProcess = crawler.frontierCrawl(),
+        _frontierProcess = crawler.frontierCrawl();
 
-        _listener = setInterval(function () {
+     /*   _listener = setInterval(function () {
             if (seeds.size() === 0) {
                 clearInterval(_seedProcess);
             }
@@ -36,6 +36,6 @@ module.exports = function () {
                 clearInterval(_listener);
                 onEnd();
             }
-        }, 60000);
+        }, 60000); */
     process.on('SIGINT', onEnd);
 };
