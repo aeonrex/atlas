@@ -1,0 +1,2592 @@
+{
+  "BLACK_LIST": [
+    "mp3",
+    "mp4"
+  ],
+  "MIMES": [
+    {
+      "extension": ".3dm",
+      "contentType": "x-world/x-3dmf"
+    },
+    {
+      "extension": ".3dmf",
+      "contentType": "x-world/x-3dmf"
+    },
+    {
+      "extension": ".a",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "extension": ".aab",
+      "contentType": "application/x-authorware-bin"
+    },
+    {
+      "extension": ".aam",
+      "contentType": "application/x-authorware-map"
+    },
+    {
+      "extension": ".aas",
+      "contentType": "application/x-authorware-seg"
+    },
+    {
+      "extension": ".abc",
+      "contentType": "text/vnd.abc"
+    },
+    {
+      "extension": ".acgi",
+      "contentType": "text/html"
+    },
+    {
+      "extension": ".afl",
+      "contentType": "video/animaflex"
+    },
+    {
+      "extension": ".ai",
+      "contentType": "application/postscript"
+    },
+    {
+      "extension": ".aif",
+      "contentType": "audio/aiff"
+    },
+    {
+      "extension": ".aif",
+      "contentType": "audio/x-aiff"
+    },
+    {
+      "extension": ".aifc",
+      "contentType": "audio/aiff"
+    },
+    {
+      "extension": ".aifc",
+      "contentType": "audio/x-aiff"
+    },
+    {
+      "extension": ".aiff",
+      "contentType": "audio/aiff"
+    },
+    {
+      "extension": ".aiff",
+      "contentType": "audio/x-aiff"
+    },
+    {
+      "extension": ".aim",
+      "contentType": "application/x-aim"
+    },
+    {
+      "extension": ".aip",
+      "contentType": "text/x-audiosoft-intra"
+    },
+    {
+      "extension": ".ani",
+      "contentType": "application/x-navi-animation"
+    },
+    {
+      "extension": ".aos",
+      "contentType": "application/x-nokia-9000-communicator-add-on-software"
+    },
+    {
+      "extension": ".aps",
+      "contentType": "application/mime"
+    },
+    {
+      "extension": ".arc",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "extension": ".arj",
+      "contentType": "application/arj"
+    },
+    {
+      "extension": ".arj",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "extension": ".art",
+      "contentType": "image/x-jg"
+    },
+    {
+      "extension": ".asf",
+      "contentType": "video/x-ms-asf"
+    },
+    {
+      "extension": ".asm",
+      "contentType": "text/x-asm"
+    },
+    {
+      "extension": ".asp",
+      "contentType": "text/asp"
+    },
+    {
+      "extension": ".asx",
+      "contentType": "application/x-mplayer2"
+    },
+    {
+      "extension": ".asx",
+      "contentType": "video/x-ms-asf"
+    },
+    {
+      "extension": ".asx",
+      "contentType": "video/x-ms-asf-plugin"
+    },
+    {
+      "extension": ".au",
+      "contentType": "audio/basic"
+    },
+    {
+      "extension": ".au",
+      "contentType": "audio/x-au"
+    },
+    {
+      "extension": ".avi",
+      "contentType": "application/x-troff-msvideo"
+    },
+    {
+      "extension": ".avi",
+      "contentType": "video/avi"
+    },
+    {
+      "extension": ".avi",
+      "contentType": "video/msvideo"
+    },
+    {
+      "extension": ".avi",
+      "contentType": "video/x-msvideo"
+    },
+    {
+      "extension": ".avs",
+      "contentType": "video/avs-video"
+    },
+    {
+      "extension": ".bcpio",
+      "contentType": "application/x-bcpio"
+    },
+    {
+      "extension": ".bin",
+      "contentType": "application/mac-binary"
+    },
+    {
+      "extension": ".bin",
+      "contentType": "application/macbinary"
+    },
+    {
+      "extension": ".bin",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "extension": ".bin",
+      "contentType": "application/x-binary"
+    },
+    {
+      "extension": ".bin",
+      "contentType": "application/x-macbinary"
+    },
+    {
+      "extension": ".bm",
+      "contentType": "image/bmp"
+    },
+    {
+      "extension": ".bmp",
+      "contentType": "image/bmp"
+    },
+    {
+      "extension": ".bmp",
+      "contentType": "image/x-windows-bmp"
+    },
+    {
+      "extension": ".boo",
+      "contentType": "application/book"
+    },
+    {
+      "extension": ".book",
+      "contentType": "application/book"
+    },
+    {
+      "extension": ".boz",
+      "contentType": "application/x-bzip2"
+    },
+    {
+      "extension": ".bsh",
+      "contentType": "application/x-bsh"
+    },
+    {
+      "extension": ".bz",
+      "contentType": "application/x-bzip"
+    },
+    {
+      "extension": ".bz2",
+      "contentType": "application/x-bzip2"
+    },
+    {
+      "extension": ".c",
+      "contentType": "text/plain"
+    },
+    {
+      "extension": ".c",
+      "contentType": "text/x-c"
+    },
+    {
+      "extension": ".c++",
+      "contentType": "text/plain"
+    },
+    {
+      "extension": ".cat",
+      "contentType": "application/vnd.ms-pki.seccat"
+    },
+    {
+      "extension": ".cc",
+      "contentType": "text/plain"
+    },
+    {
+      "extension": ".cc",
+      "contentType": "text/x-c"
+    },
+    {
+      "extension": ".ccad",
+      "contentType": "application/clariscad"
+    },
+    {
+      "extension": ".cco",
+      "contentType": "application/x-cocoa"
+    },
+    {
+      "extension": ".cdf",
+      "contentType": "application/cdf"
+    },
+    {
+      "extension": ".cdf",
+      "contentType": "application/x-cdf"
+    },
+    {
+      "extension": ".cdf",
+      "contentType": "application/x-netcdf"
+    },
+    {
+      "extension": ".cer",
+      "contentType": "application/pkix-cert"
+    },
+    {
+      "extension": ".cer",
+      "contentType": "application/x-x509-ca-cert"
+    },
+    {
+      "extension": ".cha",
+      "contentType": "application/x-chat"
+    },
+    {
+      "extension": ".chat",
+      "contentType": "application/x-chat"
+    },
+    {
+      "extension": ".class",
+      "contentType": "application/java"
+    },
+    {
+      "extension": ".class",
+      "contentType": "application/java-byte-code"
+    },
+    {
+      "extension": ".class",
+      "contentType": "application/x-java-class"
+    },
+    {
+      "extension": ".com",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "extension": ".com",
+      "contentType": "text/plain"
+    },
+    {
+      "extension": ".conf",
+      "contentType": "text/plain"
+    },
+    {
+      "extension": ".cpio",
+      "contentType": "application/x-cpio"
+    },
+    {
+      "extension": ".cpp",
+      "contentType": "text/x-c"
+    },
+    {
+      "extension": ".cpt",
+      "contentType": "application/mac-compactpro"
+    },
+    {
+      "extension": ".cpt",
+      "contentType": "application/x-compactpro"
+    },
+    {
+      "extension": ".cpt",
+      "contentType": "application/x-cpt"
+    },
+    {
+      "extension": ".crl",
+      "contentType": "application/pkcs-crl"
+    },
+    {
+      "extension": ".crl",
+      "contentType": "application/pkix-crl"
+    },
+    {
+      "extension": ".crt",
+      "contentType": "application/pkix-cert"
+    },
+    {
+      "extension": ".crt",
+      "contentType": "application/x-x509-ca-cert"
+    },
+    {
+      "extension": ".crt",
+      "contentType": "application/x-x509-user-cert"
+    },
+    {
+      "extension": ".csh",
+      "contentType": "application/x-csh"
+    },
+    {
+      "extension": ".csh",
+      "contentType": "text/x-script.csh"
+    },
+    {
+      "extension": ".css",
+      "contentType": "application/x-pointplus"
+    },
+    {
+      "extension": ".css",
+      "contentType": "text/css"
+    },
+    {
+      "extension": ".cxx",
+      "contentType": "text/plain"
+    },
+    {
+      "extension": ".dcr",
+      "contentType": "application/x-director"
+    },
+    {
+      "extension": ".deepv",
+      "contentType": "application/x-deepv"
+    },
+    {
+      "extension": ".def",
+      "contentType": "text/plain"
+    },
+    {
+      "extension": ".der",
+      "contentType": "application/x-x509-ca-cert"
+    },
+    {
+      "extension": ".dif",
+      "contentType": "video/x-dv"
+    },
+    {
+      "extension": ".dir",
+      "contentType": "application/x-director"
+    },
+    {
+      "extension": ".dl",
+      "contentType": "video/dl"
+    },
+    {
+      "extension": ".dl",
+      "contentType": "video/x-dl"
+    },
+    {
+      "extension": ".doc",
+      "contentType": "application/msword"
+    },
+    {
+      "extension": ".dot",
+      "contentType": "application/msword"
+    },
+    {
+      "extension": ".dp",
+      "contentType": "application/commonground"
+    },
+    {
+      "extension": ".drw",
+      "contentType": "application/drafting"
+    },
+    {
+      "extension": ".dump",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "extension": ".dv",
+      "contentType": "video/x-dv"
+    },
+    {
+      "extension": ".dvi",
+      "contentType": "application/x-dvi"
+    },
+    {
+      "extension": ".dwf",
+      "contentType": "drawing/x-dwf (old)"
+    },
+    {
+      "extension": ".dwf",
+      "contentType": "model/vnd.dwf"
+    },
+    {
+      "extension": ".dwg",
+      "contentType": "application/acad"
+    },
+    {
+      "extension": ".dwg",
+      "contentType": "image/vnd.dwg"
+    },
+    {
+      "extension": ".dwg",
+      "contentType": "image/x-dwg"
+    },
+    {
+      "extension": ".dxf",
+      "contentType": "application/dxf"
+    },
+    {
+      "extension": ".dxf",
+      "contentType": "image/vnd.dwg"
+    },
+    {
+      "extension": ".dxf",
+      "contentType": "image/x-dwg"
+    },
+    {
+      "extension": ".dxr",
+      "contentType": "application/x-director"
+    },
+    {
+      "extension": ".el",
+      "contentType": "text/x-script.elisp"
+    },
+    {
+      "extension": ".elc",
+      "contentType": "application/x-bytecode.elisp (compiled elisp)"
+    },
+    {
+      "extension": ".elc",
+      "contentType": "application/x-elc"
+    },
+    {
+      "extension": ".env",
+      "contentType": "application/x-envoy"
+    },
+    {
+      "extension": ".eps",
+      "contentType": "application/postscript"
+    },
+    {
+      "extension": ".es",
+      "contentType": "application/x-esrehber"
+    },
+    {
+      "extension": ".etx",
+      "contentType": "text/x-setext"
+    },
+    {
+      "extension": ".evy",
+      "contentType": "application/envoy"
+    },
+    {
+      "extension": ".evy",
+      "contentType": "application/x-envoy"
+    },
+    {
+      "extension": ".exe",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "extension": ".f",
+      "contentType": "text/plain"
+    },
+    {
+      "extension": ".f",
+      "contentType": "text/x-fortran"
+    },
+    {
+      "extension": ".f77",
+      "contentType": "text/x-fortran"
+    },
+    {
+      "extension": ".f90",
+      "contentType": "text/plain"
+    },
+    {
+      "extension": ".f90",
+      "contentType": "text/x-fortran"
+    },
+    {
+      "extension": ".fdf",
+      "contentType": "application/vnd.fdf"
+    },
+    {
+      "extension": ".fif",
+      "contentType": "application/fractals"
+    },
+    {
+      "extension": ".fif",
+      "contentType": "image/fif"
+    },
+    {
+      "extension": ".fli",
+      "contentType": "video/fli"
+    },
+    {
+      "extension": ".fli",
+      "contentType": "video/x-fli"
+    },
+    {
+      "extension": ".flo",
+      "contentType": "image/florian"
+    },
+    {
+      "extension": ".flx",
+      "contentType": "text/vnd.fmi.flexstor"
+    },
+    {
+      "extension": ".fmf",
+      "contentType": "video/x-atomic3d-feature"
+    },
+    {
+      "extension": ".for",
+      "contentType": "text/plain"
+    },
+    {
+      "extension": ".for",
+      "contentType": "text/x-fortran"
+    },
+    {
+      "extension": ".fpx",
+      "contentType": "image/vnd.fpx"
+    },
+    {
+      "extension": ".fpx",
+      "contentType": "image/vnd.net-fpx"
+    },
+    {
+      "extension": ".frl",
+      "contentType": "application/freeloader"
+    },
+    {
+      "extension": ".funk",
+      "contentType": "audio/make"
+    },
+    {
+      "extension": ".g",
+      "contentType": "text/plain"
+    },
+    {
+      "extension": ".g3",
+      "contentType": "image/g3fax"
+    },
+    {
+      "extension": ".gif",
+      "contentType": "image/gif"
+    },
+    {
+      "extension": ".gl",
+      "contentType": "video/gl"
+    },
+    {
+      "extension": ".gl",
+      "contentType": "video/x-gl"
+    },
+    {
+      "extension": ".gsd",
+      "contentType": "audio/x-gsm"
+    },
+    {
+      "extension": ".gsm",
+      "contentType": "audio/x-gsm"
+    },
+    {
+      "extension": ".gsp",
+      "contentType": "application/x-gsp"
+    },
+    {
+      "extension": ".gss",
+      "contentType": "application/x-gss"
+    },
+    {
+      "extension": ".gtar",
+      "contentType": "application/x-gtar"
+    },
+    {
+      "extension": ".gz",
+      "contentType": "application/x-compressed"
+    },
+    {
+      "extension": ".gz",
+      "contentType": "application/x-gzip"
+    },
+    {
+      "extension": ".gzip",
+      "contentType": "application/x-gzip"
+    },
+    {
+      "extension": ".gzip",
+      "contentType": "multipart/x-gzip"
+    },
+    {
+      "extension": ".h",
+      "contentType": "text/plain"
+    },
+    {
+      "extension": ".h",
+      "contentType": "text/x-h"
+    },
+    {
+      "extension": ".hdf",
+      "contentType": "application/x-hdf"
+    },
+    {
+      "extension": ".help",
+      "contentType": "application/x-helpfile"
+    },
+    {
+      "extension": ".hgl",
+      "contentType": "application/vnd.hp-hpgl"
+    },
+    {
+      "extension": ".hh",
+      "contentType": "text/plain"
+    },
+    {
+      "extension": ".hh",
+      "contentType": "text/x-h"
+    },
+    {
+      "extension": ".hlb",
+      "contentType": "text/x-script"
+    },
+    {
+      "extension": ".hlp",
+      "contentType": "application/hlp"
+    },
+    {
+      "extension": ".hlp",
+      "contentType": "application/x-helpfile"
+    },
+    {
+      "extension": ".hlp",
+      "contentType": "application/x-winhelp"
+    },
+    {
+      "extension": ".hpg",
+      "contentType": "application/vnd.hp-hpgl"
+    },
+    {
+      "extension": ".hpgl",
+      "contentType": "application/vnd.hp-hpgl"
+    },
+    {
+      "extension": ".hqx",
+      "contentType": "application/binhex"
+    },
+    {
+      "extension": ".hqx",
+      "contentType": "application/binhex4"
+    },
+    {
+      "extension": ".hqx",
+      "contentType": "application/mac-binhex"
+    },
+    {
+      "extension": ".hqx",
+      "contentType": "application/mac-binhex40"
+    },
+    {
+      "extension": ".hqx",
+      "contentType": "application/x-binhex40"
+    },
+    {
+      "extension": ".hqx",
+      "contentType": "application/x-mac-binhex40"
+    },
+    {
+      "extension": ".hta",
+      "contentType": "application/hta"
+    },
+    {
+      "extension": ".htc",
+      "contentType": "text/x-component"
+    },
+    {
+      "extension": ".htm",
+      "contentType": "text/html"
+    },
+    {
+      "extension": ".html",
+      "contentType": "text/html"
+    },
+    {
+      "extension": ".htmls",
+      "contentType": "text/html"
+    },
+    {
+      "extension": ".htt",
+      "contentType": "text/webviewhtml"
+    },
+    {
+      "extension": ".htx",
+      "contentType": "text/html"
+    },
+    {
+      "extension": ".ice",
+      "contentType": "x-conference/x-cooltalk"
+    },
+    {
+      "extension": ".ico",
+      "contentType": "image/x-icon"
+    },
+    {
+      "extension": ".idc",
+      "contentType": "text/plain"
+    },
+    {
+      "extension": ".ief",
+      "contentType": "image/ief"
+    },
+    {
+      "extension": ".iefs",
+      "contentType": "image/ief"
+    },
+    {
+      "extension": ".iges",
+      "contentType": "application/iges"
+    },
+    {
+      "extension": ".iges",
+      "contentType": "model/iges"
+    },
+    {
+      "extension": ".igs",
+      "contentType": "application/iges"
+    },
+    {
+      "extension": ".igs",
+      "contentType": "model/iges"
+    },
+    {
+      "extension": ".ima",
+      "contentType": "application/x-ima"
+    },
+    {
+      "extension": ".imap",
+      "contentType": "application/x-httpd-imap"
+    },
+    {
+      "extension": ".inf",
+      "contentType": "application/inf"
+    },
+    {
+      "extension": ".ins",
+      "contentType": "application/x-internett-signup"
+    },
+    {
+      "extension": ".ip",
+      "contentType": "application/x-ip2"
+    },
+    {
+      "extension": ".isu",
+      "contentType": "video/x-isvideo"
+    },
+    {
+      "extension": ".it",
+      "contentType": "audio/it"
+    },
+    {
+      "extension": ".iv",
+      "contentType": "application/x-inventor"
+    },
+    {
+      "extension": ".ivr",
+      "contentType": "i-world/i-vrml"
+    },
+    {
+      "extension": ".ivy",
+      "contentType": "application/x-livescreen"
+    },
+    {
+      "extension": ".jam",
+      "contentType": "audio/x-jam"
+    },
+    {
+      "extension": ".jav",
+      "contentType": "text/plain"
+    },
+    {
+      "extension": ".jav",
+      "contentType": "text/x-java-source"
+    },
+    {
+      "extension": ".java",
+      "contentType": "text/plain"
+    },
+    {
+      "extension": ".java",
+      "contentType": "text/x-java-source"
+    },
+    {
+      "extension": ".jcm",
+      "contentType": "application/x-java-commerce"
+    },
+    {
+      "extension": ".jfif",
+      "contentType": "image/jpeg"
+    },
+    {
+      "extension": ".jfif",
+      "contentType": "image/pjpeg"
+    },
+    {
+      "extension": ".jfif-tbnl",
+      "contentType": "image/jpeg"
+    },
+    {
+      "extension": ".jpe",
+      "contentType": "image/jpeg"
+    },
+    {
+      "extension": ".jpe",
+      "contentType": "image/pjpeg"
+    },
+    {
+      "extension": ".jpeg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "extension": ".jpeg",
+      "contentType": "image/pjpeg"
+    },
+    {
+      "extension": ".jpg",
+      "contentType": "image/jpeg"
+    },
+    {
+      "extension": ".jpg",
+      "contentType": "image/pjpeg"
+    },
+    {
+      "extension": ".jps",
+      "contentType": "image/x-jps"
+    },
+    {
+      "extension": ".js",
+      "contentType": "application/x-javascript"
+    },
+    {
+      "extension": ".js",
+      "contentType": "application/javascript"
+    },
+    {
+      "extension": ".js",
+      "contentType": "application/ecmascript"
+    },
+    {
+      "extension": ".js",
+      "contentType": "text/javascript"
+    },
+    {
+      "extension": ".js",
+      "contentType": "text/ecmascript"
+    },
+    {
+      "extension": ".jut",
+      "contentType": "image/jutvision"
+    },
+    {
+      "extension": ".kar",
+      "contentType": "audio/midi"
+    },
+    {
+      "extension": ".kar",
+      "contentType": "music/x-karaoke"
+    },
+    {
+      "extension": ".ksh",
+      "contentType": "application/x-ksh"
+    },
+    {
+      "extension": ".ksh",
+      "contentType": "text/x-script.ksh"
+    },
+    {
+      "extension": ".la",
+      "contentType": "audio/nspaudio"
+    },
+    {
+      "extension": ".la",
+      "contentType": "audio/x-nspaudio"
+    },
+    {
+      "extension": ".lam",
+      "contentType": "audio/x-liveaudio"
+    },
+    {
+      "extension": ".latex",
+      "contentType": "application/x-latex"
+    },
+    {
+      "extension": ".lha",
+      "contentType": "application/lha"
+    },
+    {
+      "extension": ".lha",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "extension": ".lha",
+      "contentType": "application/x-lha"
+    },
+    {
+      "extension": ".lhx",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "extension": ".list",
+      "contentType": "text/plain"
+    },
+    {
+      "extension": ".lma",
+      "contentType": "audio/nspaudio"
+    },
+    {
+      "extension": ".lma",
+      "contentType": "audio/x-nspaudio"
+    },
+    {
+      "extension": ".log",
+      "contentType": "text/plain"
+    },
+    {
+      "extension": ".lsp",
+      "contentType": "application/x-lisp"
+    },
+    {
+      "extension": ".lsp",
+      "contentType": "text/x-script.lisp"
+    },
+    {
+      "extension": ".lst",
+      "contentType": "text/plain"
+    },
+    {
+      "extension": ".lsx",
+      "contentType": "text/x-la-asf"
+    },
+    {
+      "extension": ".ltx",
+      "contentType": "application/x-latex"
+    },
+    {
+      "extension": ".lzh",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "extension": ".lzh",
+      "contentType": "application/x-lzh"
+    },
+    {
+      "extension": ".lzx",
+      "contentType": "application/lzx"
+    },
+    {
+      "extension": ".lzx",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "extension": ".lzx",
+      "contentType": "application/x-lzx"
+    },
+    {
+      "extension": ".m",
+      "contentType": "text/plain"
+    },
+    {
+      "extension": ".m",
+      "contentType": "text/x-m"
+    },
+    {
+      "extension": ".m1v",
+      "contentType": "video/mpeg"
+    },
+    {
+      "extension": ".m2a",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "extension": ".m2v",
+      "contentType": "video/mpeg"
+    },
+    {
+      "extension": ".m3u",
+      "contentType": "audio/x-mpequrl"
+    },
+    {
+      "extension": ".man",
+      "contentType": "application/x-troff-man"
+    },
+    {
+      "extension": ".map",
+      "contentType": "application/x-navimap"
+    },
+    {
+      "extension": ".mar",
+      "contentType": "text/plain"
+    },
+    {
+      "extension": ".mbd",
+      "contentType": "application/mbedlet"
+    },
+    {
+      "extension": ".mc$",
+      "contentType": "application/x-magic-cap-package-1.0"
+    },
+    {
+      "extension": ".mcd",
+      "contentType": "application/mcad"
+    },
+    {
+      "extension": ".mcd",
+      "contentType": "application/x-mathcad"
+    },
+    {
+      "extension": ".mcf",
+      "contentType": "image/vasa"
+    },
+    {
+      "extension": ".mcf",
+      "contentType": "text/mcf"
+    },
+    {
+      "extension": ".mcp",
+      "contentType": "application/netmc"
+    },
+    {
+      "extension": ".me",
+      "contentType": "application/x-troff-me"
+    },
+    {
+      "extension": ".mht",
+      "contentType": "message/rfc822"
+    },
+    {
+      "extension": ".mhtml",
+      "contentType": "message/rfc822"
+    },
+    {
+      "extension": ".mid",
+      "contentType": "application/x-midi"
+    },
+    {
+      "extension": ".mid",
+      "contentType": "audio/midi"
+    },
+    {
+      "extension": ".mid",
+      "contentType": "audio/x-mid"
+    },
+    {
+      "extension": ".mid",
+      "contentType": "audio/x-midi"
+    },
+    {
+      "extension": ".mid",
+      "contentType": "music/crescendo"
+    },
+    {
+      "extension": ".mid",
+      "contentType": "x-music/x-midi"
+    },
+    {
+      "extension": ".midi",
+      "contentType": "application/x-midi"
+    },
+    {
+      "extension": ".midi",
+      "contentType": "audio/midi"
+    },
+    {
+      "extension": ".midi",
+      "contentType": "audio/x-mid"
+    },
+    {
+      "extension": ".midi",
+      "contentType": "audio/x-midi"
+    },
+    {
+      "extension": ".midi",
+      "contentType": "music/crescendo"
+    },
+    {
+      "extension": ".midi",
+      "contentType": "x-music/x-midi"
+    },
+    {
+      "extension": ".mif",
+      "contentType": "application/x-frame"
+    },
+    {
+      "extension": ".mif",
+      "contentType": "application/x-mif"
+    },
+    {
+      "extension": ".mime",
+      "contentType": "message/rfc822"
+    },
+    {
+      "extension": ".mime",
+      "contentType": "www/mime"
+    },
+    {
+      "extension": ".mjf",
+      "contentType": "audio/x-vnd.audioexplosion.mjuicemediafile"
+    },
+    {
+      "extension": ".mjpg",
+      "contentType": "video/x-motion-jpeg"
+    },
+    {
+      "extension": ".mm",
+      "contentType": "application/base64"
+    },
+    {
+      "extension": ".mm",
+      "contentType": "application/x-meme"
+    },
+    {
+      "extension": ".mme",
+      "contentType": "application/base64"
+    },
+    {
+      "extension": ".mod",
+      "contentType": "audio/mod"
+    },
+    {
+      "extension": ".mod",
+      "contentType": "audio/x-mod"
+    },
+    {
+      "extension": ".moov",
+      "contentType": "video/quicktime"
+    },
+    {
+      "extension": ".mov",
+      "contentType": "video/quicktime"
+    },
+    {
+      "extension": ".movie",
+      "contentType": "video/x-sgi-movie"
+    },
+    {
+      "extension": ".mp2",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "extension": ".mp2",
+      "contentType": "audio/x-mpeg"
+    },
+    {
+      "extension": ".mp2",
+      "contentType": "video/mpeg"
+    },
+    {
+      "extension": ".mp2",
+      "contentType": "video/x-mpeg"
+    },
+    {
+      "extension": ".mp2",
+      "contentType": "video/x-mpeq2a"
+    },
+    {
+      "extension": ".mp3",
+      "contentType": "audio/mpeg3"
+    },
+    {
+      "extension": ".mp3",
+      "contentType": "audio/x-mpeg-3"
+    },
+    {
+      "extension": ".mp3",
+      "contentType": "video/mpeg"
+    },
+    {
+      "extension": ".mp3",
+      "contentType": "video/x-mpeg"
+    },
+    {
+      "extension": ".mpa",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "extension": ".mpa",
+      "contentType": "video/mpeg"
+    },
+    {
+      "extension": ".mpc",
+      "contentType": "application/x-project"
+    },
+    {
+      "extension": ".mpe",
+      "contentType": "video/mpeg"
+    },
+    {
+      "extension": ".mpeg",
+      "contentType": "video/mpeg"
+    },
+    {
+      "extension": ".mpg",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "extension": ".mpg",
+      "contentType": "video/mpeg"
+    },
+    {
+      "extension": ".mpga",
+      "contentType": "audio/mpeg"
+    },
+    {
+      "extension": ".mpp",
+      "contentType": "application/vnd.ms-project"
+    },
+    {
+      "extension": ".mpt",
+      "contentType": "application/x-project"
+    },
+    {
+      "extension": ".mpv",
+      "contentType": "application/x-project"
+    },
+    {
+      "extension": ".mpx",
+      "contentType": "application/x-project"
+    },
+    {
+      "extension": ".mrc",
+      "contentType": "application/marc"
+    },
+    {
+      "extension": ".ms",
+      "contentType": "application/x-troff-ms"
+    },
+    {
+      "extension": ".mv",
+      "contentType": "video/x-sgi-movie"
+    },
+    {
+      "extension": ".my",
+      "contentType": "audio/make"
+    },
+    {
+      "extension": ".mzz",
+      "contentType": "application/x-vnd.audioexplosion.mzz"
+    },
+    {
+      "extension": ".nap",
+      "contentType": "image/naplps"
+    },
+    {
+      "extension": ".naplps",
+      "contentType": "image/naplps"
+    },
+    {
+      "extension": ".nc",
+      "contentType": "application/x-netcdf"
+    },
+    {
+      "extension": ".ncm",
+      "contentType": "application/vnd.nokia.configuration-message"
+    },
+    {
+      "extension": ".nif",
+      "contentType": "image/x-niff"
+    },
+    {
+      "extension": ".niff",
+      "contentType": "image/x-niff"
+    },
+    {
+      "extension": ".nix",
+      "contentType": "application/x-mix-transfer"
+    },
+    {
+      "extension": ".nsc",
+      "contentType": "application/x-conference"
+    },
+    {
+      "extension": ".nvd",
+      "contentType": "application/x-navidoc"
+    },
+    {
+      "extension": ".o",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "extension": ".oda",
+      "contentType": "application/oda"
+    },
+    {
+      "extension": ".omc",
+      "contentType": "application/x-omc"
+    },
+    {
+      "extension": ".omcd",
+      "contentType": "application/x-omcdatamaker"
+    },
+    {
+      "extension": ".omcr",
+      "contentType": "application/x-omcregerator"
+    },
+    {
+      "extension": ".p",
+      "contentType": "text/x-pascal"
+    },
+    {
+      "extension": ".p10",
+      "contentType": "application/pkcs10"
+    },
+    {
+      "extension": ".p10",
+      "contentType": "application/x-pkcs10"
+    },
+    {
+      "extension": ".p12",
+      "contentType": "application/pkcs-12"
+    },
+    {
+      "extension": ".p12",
+      "contentType": "application/x-pkcs12"
+    },
+    {
+      "extension": ".p7a",
+      "contentType": "application/x-pkcs7-signature"
+    },
+    {
+      "extension": ".p7c",
+      "contentType": "application/pkcs7-mime"
+    },
+    {
+      "extension": ".p7c",
+      "contentType": "application/x-pkcs7-mime"
+    },
+    {
+      "extension": ".p7m",
+      "contentType": "application/pkcs7-mime"
+    },
+    {
+      "extension": ".p7m",
+      "contentType": "application/x-pkcs7-mime"
+    },
+    {
+      "extension": ".p7r",
+      "contentType": "application/x-pkcs7-certreqresp"
+    },
+    {
+      "extension": ".p7s",
+      "contentType": "application/pkcs7-signature"
+    },
+    {
+      "extension": ".part",
+      "contentType": "application/pro_eng"
+    },
+    {
+      "extension": ".pas",
+      "contentType": "text/pascal"
+    },
+    {
+      "extension": ".pbm",
+      "contentType": "image/x-portable-bitmap"
+    },
+    {
+      "extension": ".pcl",
+      "contentType": "application/vnd.hp-pcl"
+    },
+    {
+      "extension": ".pcl",
+      "contentType": "application/x-pcl"
+    },
+    {
+      "extension": ".pct",
+      "contentType": "image/x-pict"
+    },
+    {
+      "extension": ".pcx",
+      "contentType": "image/x-pcx"
+    },
+    {
+      "extension": ".pdb",
+      "contentType": "chemical/x-pdb"
+    },
+    {
+      "extension": ".pdf",
+      "contentType": "application/pdf"
+    },
+    {
+      "extension": ".pfunk",
+      "contentType": "audio/make"
+    },
+    {
+      "extension": ".pfunk",
+      "contentType": "audio/make.my.funk"
+    },
+    {
+      "extension": ".pgm",
+      "contentType": "image/x-portable-graymap"
+    },
+    {
+      "extension": ".pgm",
+      "contentType": "image/x-portable-greymap"
+    },
+    {
+      "extension": ".pic",
+      "contentType": "image/pict"
+    },
+    {
+      "extension": ".pict",
+      "contentType": "image/pict"
+    },
+    {
+      "extension": ".pkg",
+      "contentType": "application/x-newton-compatible-pkg"
+    },
+    {
+      "extension": ".pko",
+      "contentType": "application/vnd.ms-pki.pko"
+    },
+    {
+      "extension": ".pl",
+      "contentType": "text/plain"
+    },
+    {
+      "extension": ".pl",
+      "contentType": "text/x-script.perl"
+    },
+    {
+      "extension": ".plx",
+      "contentType": "application/x-pixclscript"
+    },
+    {
+      "extension": ".pm",
+      "contentType": "image/x-xpixmap"
+    },
+    {
+      "extension": ".pm",
+      "contentType": "text/x-script.perl-module"
+    },
+    {
+      "extension": ".pm4",
+      "contentType": "application/x-pagemaker"
+    },
+    {
+      "extension": ".pm5",
+      "contentType": "application/x-pagemaker"
+    },
+    {
+      "extension": ".png",
+      "contentType": "image/png"
+    },
+    {
+      "extension": ".pnm",
+      "contentType": "application/x-portable-anymap"
+    },
+    {
+      "extension": ".pnm",
+      "contentType": "image/x-portable-anymap"
+    },
+    {
+      "extension": ".pot",
+      "contentType": "application/mspowerpoint"
+    },
+    {
+      "extension": ".pot",
+      "contentType": "application/vnd.ms-powerpoint"
+    },
+    {
+      "extension": ".pov",
+      "contentType": "model/x-pov"
+    },
+    {
+      "extension": ".ppa",
+      "contentType": "application/vnd.ms-powerpoint"
+    },
+    {
+      "extension": ".ppm",
+      "contentType": "image/x-portable-pixmap"
+    },
+    {
+      "extension": ".pps",
+      "contentType": "application/mspowerpoint"
+    },
+    {
+      "extension": ".pps",
+      "contentType": "application/vnd.ms-powerpoint"
+    },
+    {
+      "extension": ".ppt",
+      "contentType": "application/mspowerpoint"
+    },
+    {
+      "extension": ".ppt",
+      "contentType": "application/powerpoint"
+    },
+    {
+      "extension": ".ppt",
+      "contentType": "application/vnd.ms-powerpoint"
+    },
+    {
+      "extension": ".ppt",
+      "contentType": "application/x-mspowerpoint"
+    },
+    {
+      "extension": ".ppz",
+      "contentType": "application/mspowerpoint"
+    },
+    {
+      "extension": ".pre",
+      "contentType": "application/x-freelance"
+    },
+    {
+      "extension": ".prt",
+      "contentType": "application/pro_eng"
+    },
+    {
+      "extension": ".ps",
+      "contentType": "application/postscript"
+    },
+    {
+      "extension": ".psd",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "extension": ".pvu",
+      "contentType": "paleovu/x-pv"
+    },
+    {
+      "extension": ".pwz",
+      "contentType": "application/vnd.ms-powerpoint"
+    },
+    {
+      "extension": ".py",
+      "contentType": "text/x-script.phyton"
+    },
+    {
+      "extension": ".pyc",
+      "contentType": "application/x-bytecode.python"
+    },
+    {
+      "extension": ".qcp",
+      "contentType": "audio/vnd.qcelp"
+    },
+    {
+      "extension": ".qd3",
+      "contentType": "x-world/x-3dmf"
+    },
+    {
+      "extension": ".qd3d",
+      "contentType": "x-world/x-3dmf"
+    },
+    {
+      "extension": ".qif",
+      "contentType": "image/x-quicktime"
+    },
+    {
+      "extension": ".qt",
+      "contentType": "video/quicktime"
+    },
+    {
+      "extension": ".qtc",
+      "contentType": "video/x-qtc"
+    },
+    {
+      "extension": ".qti",
+      "contentType": "image/x-quicktime"
+    },
+    {
+      "extension": ".qtif",
+      "contentType": "image/x-quicktime"
+    },
+    {
+      "extension": ".ra",
+      "contentType": "audio/x-pn-realaudio"
+    },
+    {
+      "extension": ".ra",
+      "contentType": "audio/x-pn-realaudio-plugin"
+    },
+    {
+      "extension": ".ra",
+      "contentType": "audio/x-realaudio"
+    },
+    {
+      "extension": ".ram",
+      "contentType": "audio/x-pn-realaudio"
+    },
+    {
+      "extension": ".ras",
+      "contentType": "application/x-cmu-raster"
+    },
+    {
+      "extension": ".ras",
+      "contentType": "image/cmu-raster"
+    },
+    {
+      "extension": ".ras",
+      "contentType": "image/x-cmu-raster"
+    },
+    {
+      "extension": ".rast",
+      "contentType": "image/cmu-raster"
+    },
+    {
+      "extension": ".rexx",
+      "contentType": "text/x-script.rexx"
+    },
+    {
+      "extension": ".rf",
+      "contentType": "image/vnd.rn-realflash"
+    },
+    {
+      "extension": ".rgb",
+      "contentType": "image/x-rgb"
+    },
+    {
+      "extension": ".rm",
+      "contentType": "application/vnd.rn-realmedia"
+    },
+    {
+      "extension": ".rm",
+      "contentType": "audio/x-pn-realaudio"
+    },
+    {
+      "extension": ".rmi",
+      "contentType": "audio/mid"
+    },
+    {
+      "extension": ".rmm",
+      "contentType": "audio/x-pn-realaudio"
+    },
+    {
+      "extension": ".rmp",
+      "contentType": "audio/x-pn-realaudio"
+    },
+    {
+      "extension": ".rmp",
+      "contentType": "audio/x-pn-realaudio-plugin"
+    },
+    {
+      "extension": ".rng",
+      "contentType": "application/ringing-tones"
+    },
+    {
+      "extension": ".rng",
+      "contentType": "application/vnd.nokia.ringing-tone"
+    },
+    {
+      "extension": ".rnx",
+      "contentType": "application/vnd.rn-realplayer"
+    },
+    {
+      "extension": ".roff",
+      "contentType": "application/x-troff"
+    },
+    {
+      "extension": ".rp",
+      "contentType": "image/vnd.rn-realpix"
+    },
+    {
+      "extension": ".rpm",
+      "contentType": "audio/x-pn-realaudio-plugin"
+    },
+    {
+      "extension": ".rt",
+      "contentType": "text/richtext"
+    },
+    {
+      "extension": ".rt",
+      "contentType": "text/vnd.rn-realtext"
+    },
+    {
+      "extension": ".rtf",
+      "contentType": "application/rtf"
+    },
+    {
+      "extension": ".rtf",
+      "contentType": "application/x-rtf"
+    },
+    {
+      "extension": ".rtf",
+      "contentType": "text/richtext"
+    },
+    {
+      "extension": ".rtx",
+      "contentType": "application/rtf"
+    },
+    {
+      "extension": ".rtx",
+      "contentType": "text/richtext"
+    },
+    {
+      "extension": ".rv",
+      "contentType": "video/vnd.rn-realvideo"
+    },
+    {
+      "extension": ".s",
+      "contentType": "text/x-asm"
+    },
+    {
+      "extension": ".s3m",
+      "contentType": "audio/s3m"
+    },
+    {
+      "extension": ".saveme",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "extension": ".sbk",
+      "contentType": "application/x-tbook"
+    },
+    {
+      "extension": ".scm",
+      "contentType": "application/x-lotusscreencam"
+    },
+    {
+      "extension": ".scm",
+      "contentType": "text/x-script.guile"
+    },
+    {
+      "extension": ".scm",
+      "contentType": "text/x-script.scheme"
+    },
+    {
+      "extension": ".scm",
+      "contentType": "video/x-scm"
+    },
+    {
+      "extension": ".sdml",
+      "contentType": "text/plain"
+    },
+    {
+      "extension": ".sdp",
+      "contentType": "application/sdp"
+    },
+    {
+      "extension": ".sdp",
+      "contentType": "application/x-sdp"
+    },
+    {
+      "extension": ".sdr",
+      "contentType": "application/sounder"
+    },
+    {
+      "extension": ".sea",
+      "contentType": "application/sea"
+    },
+    {
+      "extension": ".sea",
+      "contentType": "application/x-sea"
+    },
+    {
+      "extension": ".set",
+      "contentType": "application/set"
+    },
+    {
+      "extension": ".sgm",
+      "contentType": "text/sgml"
+    },
+    {
+      "extension": ".sgm",
+      "contentType": "text/x-sgml"
+    },
+    {
+      "extension": ".sgml",
+      "contentType": "text/sgml"
+    },
+    {
+      "extension": ".sgml",
+      "contentType": "text/x-sgml"
+    },
+    {
+      "extension": ".sh",
+      "contentType": "application/x-bsh"
+    },
+    {
+      "extension": ".sh",
+      "contentType": "application/x-sh"
+    },
+    {
+      "extension": ".sh",
+      "contentType": "application/x-shar"
+    },
+    {
+      "extension": ".sh",
+      "contentType": "text/x-script.sh"
+    },
+    {
+      "extension": ".shar",
+      "contentType": "application/x-bsh"
+    },
+    {
+      "extension": ".shar",
+      "contentType": "application/x-shar"
+    },
+    {
+      "extension": ".shtml",
+      "contentType": "text/html"
+    },
+    {
+      "extension": ".shtml",
+      "contentType": "text/x-server-parsed-html"
+    },
+    {
+      "extension": ".sid",
+      "contentType": "audio/x-psid"
+    },
+    {
+      "extension": ".sit",
+      "contentType": "application/x-sit"
+    },
+    {
+      "extension": ".sit",
+      "contentType": "application/x-stuffit"
+    },
+    {
+      "extension": ".skd",
+      "contentType": "application/x-koan"
+    },
+    {
+      "extension": ".skm",
+      "contentType": "application/x-koan"
+    },
+    {
+      "extension": ".skp",
+      "contentType": "application/x-koan"
+    },
+    {
+      "extension": ".skt",
+      "contentType": "application/x-koan"
+    },
+    {
+      "extension": ".sl",
+      "contentType": "application/x-seelogo"
+    },
+    {
+      "extension": ".smi",
+      "contentType": "application/smil"
+    },
+    {
+      "extension": ".smil",
+      "contentType": "application/smil"
+    },
+    {
+      "extension": ".snd",
+      "contentType": "audio/basic"
+    },
+    {
+      "extension": ".snd",
+      "contentType": "audio/x-adpcm"
+    },
+    {
+      "extension": ".sol",
+      "contentType": "application/solids"
+    },
+    {
+      "extension": ".spc",
+      "contentType": "application/x-pkcs7-certificates"
+    },
+    {
+      "extension": ".spc",
+      "contentType": "text/x-speech"
+    },
+    {
+      "extension": ".spl",
+      "contentType": "application/futuresplash"
+    },
+    {
+      "extension": ".spr",
+      "contentType": "application/x-sprite"
+    },
+    {
+      "extension": ".sprite",
+      "contentType": "application/x-sprite"
+    },
+    {
+      "extension": ".src",
+      "contentType": "application/x-wais-source"
+    },
+    {
+      "extension": ".ssi",
+      "contentType": "text/x-server-parsed-html"
+    },
+    {
+      "extension": ".ssm",
+      "contentType": "application/streamingmedia"
+    },
+    {
+      "extension": ".sst",
+      "contentType": "application/vnd.ms-pki.certstore"
+    },
+    {
+      "extension": ".step",
+      "contentType": "application/step"
+    },
+    {
+      "extension": ".stl",
+      "contentType": "application/sla"
+    },
+    {
+      "extension": ".stl",
+      "contentType": "application/vnd.ms-pki.stl"
+    },
+    {
+      "extension": ".stl",
+      "contentType": "application/x-navistyle"
+    },
+    {
+      "extension": ".stp",
+      "contentType": "application/step"
+    },
+    {
+      "extension": ".sv4cpio",
+      "contentType": "application/x-sv4cpio"
+    },
+    {
+      "extension": ".sv4crc",
+      "contentType": "application/x-sv4crc"
+    },
+    {
+      "extension": ".svf",
+      "contentType": "image/vnd.dwg"
+    },
+    {
+      "extension": ".svf",
+      "contentType": "image/x-dwg"
+    },
+    {
+      "extension": ".svr",
+      "contentType": "application/x-world"
+    },
+    {
+      "extension": ".svr",
+      "contentType": "x-world/x-svr"
+    },
+    {
+      "extension": ".swf",
+      "contentType": "application/x-shockwave-flash"
+    },
+    {
+      "extension": ".t",
+      "contentType": "application/x-troff"
+    },
+    {
+      "extension": ".talk",
+      "contentType": "text/x-speech"
+    },
+    {
+      "extension": ".tar",
+      "contentType": "application/x-tar"
+    },
+    {
+      "extension": ".tbk",
+      "contentType": "application/toolbook"
+    },
+    {
+      "extension": ".tbk",
+      "contentType": "application/x-tbook"
+    },
+    {
+      "extension": ".tcl",
+      "contentType": "application/x-tcl"
+    },
+    {
+      "extension": ".tcl",
+      "contentType": "text/x-script.tcl"
+    },
+    {
+      "extension": ".tcsh",
+      "contentType": "text/x-script.tcsh"
+    },
+    {
+      "extension": ".tex",
+      "contentType": "application/x-tex"
+    },
+    {
+      "extension": ".texi",
+      "contentType": "application/x-texinfo"
+    },
+    {
+      "extension": ".texinfo",
+      "contentType": "application/x-texinfo"
+    },
+    {
+      "extension": ".text",
+      "contentType": "application/plain"
+    },
+    {
+      "extension": ".text",
+      "contentType": "text/plain"
+    },
+    {
+      "extension": ".tgz",
+      "contentType": "application/gnutar"
+    },
+    {
+      "extension": ".tgz",
+      "contentType": "application/x-compressed"
+    },
+    {
+      "extension": ".tif",
+      "contentType": "image/tiff"
+    },
+    {
+      "extension": ".tif",
+      "contentType": "image/x-tiff"
+    },
+    {
+      "extension": ".tiff",
+      "contentType": "image/tiff"
+    },
+    {
+      "extension": ".tiff",
+      "contentType": "image/x-tiff"
+    },
+    {
+      "extension": ".tr",
+      "contentType": "application/x-troff"
+    },
+    {
+      "extension": ".tsi",
+      "contentType": "audio/tsp-audio"
+    },
+    {
+      "extension": ".tsp",
+      "contentType": "application/dsptype"
+    },
+    {
+      "extension": ".tsp",
+      "contentType": "audio/tsplayer"
+    },
+    {
+      "extension": ".tsv",
+      "contentType": "text/tab-separated-values"
+    },
+    {
+      "extension": ".turbot",
+      "contentType": "image/florian"
+    },
+    {
+      "extension": ".txt",
+      "contentType": "text/plain"
+    },
+    {
+      "extension": ".uil",
+      "contentType": "text/x-uil"
+    },
+    {
+      "extension": ".uni",
+      "contentType": "text/uri-list"
+    },
+    {
+      "extension": ".unis",
+      "contentType": "text/uri-list"
+    },
+    {
+      "extension": ".unv",
+      "contentType": "application/i-deas"
+    },
+    {
+      "extension": ".uri",
+      "contentType": "text/uri-list"
+    },
+    {
+      "extension": ".uris",
+      "contentType": "text/uri-list"
+    },
+    {
+      "extension": ".ustar",
+      "contentType": "application/x-ustar"
+    },
+    {
+      "extension": ".ustar",
+      "contentType": "multipart/x-ustar"
+    },
+    {
+      "extension": ".uu",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "extension": ".uu",
+      "contentType": "text/x-uuencode"
+    },
+    {
+      "extension": ".uue",
+      "contentType": "text/x-uuencode"
+    },
+    {
+      "extension": ".vcd",
+      "contentType": "application/x-cdlink"
+    },
+    {
+      "extension": ".vcs",
+      "contentType": "text/x-vcalendar"
+    },
+    {
+      "extension": ".vda",
+      "contentType": "application/vda"
+    },
+    {
+      "extension": ".vdo",
+      "contentType": "video/vdo"
+    },
+    {
+      "extension": ".vew",
+      "contentType": "application/groupwise"
+    },
+    {
+      "extension": ".viv",
+      "contentType": "video/vivo"
+    },
+    {
+      "extension": ".viv",
+      "contentType": "video/vnd.vivo"
+    },
+    {
+      "extension": ".vivo",
+      "contentType": "video/vivo"
+    },
+    {
+      "extension": ".vivo",
+      "contentType": "video/vnd.vivo"
+    },
+    {
+      "extension": ".vmd",
+      "contentType": "application/vocaltec-media-desc"
+    },
+    {
+      "extension": ".vmf",
+      "contentType": "application/vocaltec-media-file"
+    },
+    {
+      "extension": ".voc",
+      "contentType": "audio/voc"
+    },
+    {
+      "extension": ".voc",
+      "contentType": "audio/x-voc"
+    },
+    {
+      "extension": ".vos",
+      "contentType": "video/vosaic"
+    },
+    {
+      "extension": ".vox",
+      "contentType": "audio/voxware"
+    },
+    {
+      "extension": ".vqe",
+      "contentType": "audio/x-twinvq-plugin"
+    },
+    {
+      "extension": ".vqf",
+      "contentType": "audio/x-twinvq"
+    },
+    {
+      "extension": ".vql",
+      "contentType": "audio/x-twinvq-plugin"
+    },
+    {
+      "extension": ".vrml",
+      "contentType": "application/x-vrml"
+    },
+    {
+      "extension": ".vrml",
+      "contentType": "model/vrml"
+    },
+    {
+      "extension": ".vrml",
+      "contentType": "x-world/x-vrml"
+    },
+    {
+      "extension": ".vrt",
+      "contentType": "x-world/x-vrt"
+    },
+    {
+      "extension": ".vsd",
+      "contentType": "application/x-visio"
+    },
+    {
+      "extension": ".vst",
+      "contentType": "application/x-visio"
+    },
+    {
+      "extension": ".vsw",
+      "contentType": "application/x-visio"
+    },
+    {
+      "extension": ".w60",
+      "contentType": "application/wordperfect6.0"
+    },
+    {
+      "extension": ".w61",
+      "contentType": "application/wordperfect6.1"
+    },
+    {
+      "extension": ".w6w",
+      "contentType": "application/msword"
+    },
+    {
+      "extension": ".wav",
+      "contentType": "audio/wav"
+    },
+    {
+      "extension": ".wav",
+      "contentType": "audio/x-wav"
+    },
+    {
+      "extension": ".wb1",
+      "contentType": "application/x-qpro"
+    },
+    {
+      "extension": ".wbmp",
+      "contentType": "image/vnd.wap.wbmp"
+    },
+    {
+      "extension": ".web",
+      "contentType": "application/vnd.xara"
+    },
+    {
+      "extension": ".wiz",
+      "contentType": "application/msword"
+    },
+    {
+      "extension": ".wk1",
+      "contentType": "application/x-123"
+    },
+    {
+      "extension": ".wmf",
+      "contentType": "windows/metafile"
+    },
+    {
+      "extension": ".wml",
+      "contentType": "text/vnd.wap.wml"
+    },
+    {
+      "extension": ".wmlc",
+      "contentType": "application/vnd.wap.wmlc"
+    },
+    {
+      "extension": ".wmls",
+      "contentType": "text/vnd.wap.wmlscript"
+    },
+    {
+      "extension": ".wmlsc",
+      "contentType": "application/vnd.wap.wmlscriptc"
+    },
+    {
+      "extension": ".word",
+      "contentType": "application/msword"
+    },
+    {
+      "extension": ".wp",
+      "contentType": "application/wordperfect"
+    },
+    {
+      "extension": ".wp5",
+      "contentType": "application/wordperfect"
+    },
+    {
+      "extension": ".wp5",
+      "contentType": "application/wordperfect6.0"
+    },
+    {
+      "extension": ".wp6",
+      "contentType": "application/wordperfect"
+    },
+    {
+      "extension": ".wpd",
+      "contentType": "application/wordperfect"
+    },
+    {
+      "extension": ".wpd",
+      "contentType": "application/x-wpwin"
+    },
+    {
+      "extension": ".wq1",
+      "contentType": "application/x-lotus"
+    },
+    {
+      "extension": ".wri",
+      "contentType": "application/mswrite"
+    },
+    {
+      "extension": ".wri",
+      "contentType": "application/x-wri"
+    },
+    {
+      "extension": ".wrl",
+      "contentType": "application/x-world"
+    },
+    {
+      "extension": ".wrl",
+      "contentType": "model/vrml"
+    },
+    {
+      "extension": ".wrl",
+      "contentType": "x-world/x-vrml"
+    },
+    {
+      "extension": ".wrz",
+      "contentType": "model/vrml"
+    },
+    {
+      "extension": ".wrz",
+      "contentType": "x-world/x-vrml"
+    },
+    {
+      "extension": ".wsc",
+      "contentType": "text/scriplet"
+    },
+    {
+      "extension": ".wsrc",
+      "contentType": "application/x-wais-source"
+    },
+    {
+      "extension": ".wtk",
+      "contentType": "application/x-wintalk"
+    },
+    {
+      "extension": ".xbm",
+      "contentType": "image/x-xbitmap"
+    },
+    {
+      "extension": ".xbm",
+      "contentType": "image/x-xbm"
+    },
+    {
+      "extension": ".xbm",
+      "contentType": "image/xbm"
+    },
+    {
+      "extension": ".xdr",
+      "contentType": "video/x-amt-demorun"
+    },
+    {
+      "extension": ".xgz",
+      "contentType": "xgl/drawing"
+    },
+    {
+      "extension": ".xif",
+      "contentType": "image/vnd.xiff"
+    },
+    {
+      "extension": ".xl",
+      "contentType": "application/excel"
+    },
+    {
+      "extension": ".xla",
+      "contentType": "application/excel"
+    },
+    {
+      "extension": ".xla",
+      "contentType": "application/x-excel"
+    },
+    {
+      "extension": ".xla",
+      "contentType": "application/x-msexcel"
+    },
+    {
+      "extension": ".xlb",
+      "contentType": "application/excel"
+    },
+    {
+      "extension": ".xlb",
+      "contentType": "application/vnd.ms-excel"
+    },
+    {
+      "extension": ".xlb",
+      "contentType": "application/x-excel"
+    },
+    {
+      "extension": ".xlc",
+      "contentType": "application/excel"
+    },
+    {
+      "extension": ".xlc",
+      "contentType": "application/vnd.ms-excel"
+    },
+    {
+      "extension": ".xlc",
+      "contentType": "application/x-excel"
+    },
+    {
+      "extension": ".xld",
+      "contentType": "application/excel"
+    },
+    {
+      "extension": ".xld",
+      "contentType": "application/x-excel"
+    },
+    {
+      "extension": ".xlk",
+      "contentType": "application/excel"
+    },
+    {
+      "extension": ".xlk",
+      "contentType": "application/x-excel"
+    },
+    {
+      "extension": ".xll",
+      "contentType": "application/excel"
+    },
+    {
+      "extension": ".xll",
+      "contentType": "application/vnd.ms-excel"
+    },
+    {
+      "extension": ".xll",
+      "contentType": "application/x-excel"
+    },
+    {
+      "extension": ".xlm",
+      "contentType": "application/excel"
+    },
+    {
+      "extension": ".xlm",
+      "contentType": "application/vnd.ms-excel"
+    },
+    {
+      "extension": ".xlm",
+      "contentType": "application/x-excel"
+    },
+    {
+      "extension": ".xls",
+      "contentType": "application/excel"
+    },
+    {
+      "extension": ".xls",
+      "contentType": "application/vnd.ms-excel"
+    },
+    {
+      "extension": ".xls",
+      "contentType": "application/x-excel"
+    },
+    {
+      "extension": ".xls",
+      "contentType": "application/x-msexcel"
+    },
+    {
+      "extension": ".xlt",
+      "contentType": "application/excel"
+    },
+    {
+      "extension": ".xlt",
+      "contentType": "application/x-excel"
+    },
+    {
+      "extension": ".xlv",
+      "contentType": "application/excel"
+    },
+    {
+      "extension": ".xlv",
+      "contentType": "application/x-excel"
+    },
+    {
+      "extension": ".xlw",
+      "contentType": "application/excel"
+    },
+    {
+      "extension": ".xlw",
+      "contentType": "application/vnd.ms-excel"
+    },
+    {
+      "extension": ".xlw",
+      "contentType": "application/x-excel"
+    },
+    {
+      "extension": ".xlw",
+      "contentType": "application/x-msexcel"
+    },
+    {
+      "extension": ".xm",
+      "contentType": "audio/xm"
+    },
+    {
+      "extension": ".xml",
+      "contentType": "application/xml"
+    },
+    {
+      "extension": ".xml",
+      "contentType": "text/xml"
+    },
+    {
+      "extension": ".xmz",
+      "contentType": "xgl/movie"
+    },
+    {
+      "extension": ".xpix",
+      "contentType": "application/x-vnd.ls-xpix"
+    },
+    {
+      "extension": ".xpm",
+      "contentType": "image/x-xpixmap"
+    },
+    {
+      "extension": ".xpm",
+      "contentType": "image/xpm"
+    },
+    {
+      "extension": ".x-png",
+      "contentType": "image/png"
+    },
+    {
+      "extension": ".xsr",
+      "contentType": "video/x-amt-showrun"
+    },
+    {
+      "extension": ".xwd",
+      "contentType": "image/x-xwd"
+    },
+    {
+      "extension": ".xwd",
+      "contentType": "image/x-xwindowdump"
+    },
+    {
+      "extension": ".xyz",
+      "contentType": "chemical/x-pdb"
+    },
+    {
+      "extension": ".z",
+      "contentType": "application/x-compress"
+    },
+    {
+      "extension": ".z",
+      "contentType": "application/x-compressed"
+    },
+    {
+      "extension": ".zip",
+      "contentType": "application/x-compressed"
+    },
+    {
+      "extension": ".zip",
+      "contentType": "application/x-zip-compressed"
+    },
+    {
+      "extension": ".zip",
+      "contentType": "application/zip"
+    },
+    {
+      "extension": ".zip",
+      "contentType": "multipart/x-zip"
+    },
+    {
+      "extension": ".zoo",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "extension": ".zsh",
+      "contentType": "text/x-script.zsh"
+    }
+  ]
+}
