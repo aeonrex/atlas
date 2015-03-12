@@ -26,4 +26,4 @@ var frontierItem = new Schema({
 }/*,{autoIndex: false}*/);
 
 
-module.exports = mongoose.model('frontier', frontierItem);
+module.exports = mongoose.model('frontierItem', frontierItem);

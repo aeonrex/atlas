@@ -17,4 +17,4 @@ var foundItem = new Schema({
     }
 }/*,{autoIndex: false}*/);
 
-module.exports = mongoose.model('found', foundItem);
+module.exports = mongoose.model('foundItem', foundItem);
