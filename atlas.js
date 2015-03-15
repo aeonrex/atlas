@@ -6,5 +6,6 @@
 var vulcan = require('vulcan');
 
 vulcan.hammer(function () {
+    require('./lib/dbConnect');
     require('./app/atlas')();
 });
