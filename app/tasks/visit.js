@@ -14,9 +14,6 @@ var request = require('request'),
         method: 'GET'
     };
 
-//TODO: make the main task performing a GET on a frontierItem
-
-
 module.exports = function (crawlItem, textCallback, audioCallback, videoCallback, imageCallback, applicationCallback) {
 
     if (!crawlItem || !crawlItem.url) {
@@ -49,7 +46,9 @@ module.exports = function (crawlItem, textCallback, audioCallback, videoCallback
         if (res.statusCode !== 200) {
              return console.log(require('../errors/UnSuccessfulRequestError')(res.statusCode, opt.uri));
         }
-        console.log(crawlItem);
+
+        // TODO: save crawl time and response info.
+      //  console.log(JSON.stringify(res, null, '\t'));
         crawlItem.data = body;
 
         //console.log(body);

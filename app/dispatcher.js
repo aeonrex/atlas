@@ -3,26 +3,30 @@
  */
 'use strict';
 
-var visitTask = require('./tasks/visit');
+var async = require('async'),
+    _ = require('vulcan').util._,
+    visitTask = require('./tasks/visit');
 
 function Dispatcher(options) {
     options = options || {};
 
-    this.concurrentLimit = options.concurrentLimit || 1;
+    this.concurrentLimit = options.concurrentLimit || 4;
     this.requestTimeout = options.requestTimeout || 500;
 
-    this.taskCount = 0;
+    this.tasks = [];
 
-    this.prepare = function (resources) {
+    this._dispatchProcess = undefined;
+
+    this.prepare = function (crawlItems) {
         var self = this;
-        return resources.filter(function (res) {
-            return res;
-        }).map(function (resource) {
-            self.taskCount++;
-            return function () {
-                visitTask(resource);
-                self.taskCount--;
-            };
+
+        _.forEach(crawlItems, function (item) {
+            if (!item) {
+                return false;
+            }
+            self.tasks.push(function() {
+                visitTask(item)
+            });
         });
     };
 
@@ -42,7 +46,7 @@ function Dispatcher(options) {
     };
 
     this.getTaskCount = function () {
-        return this.taskCount;
+        return this.tasks.length;
     }
 }
 
@@ -51,17 +55,30 @@ Dispatcher.prototype.dispatch = function (resources) {
         return;
     }
 
-    var self = this,
-        tasks = self.prepare(resources);
+    var self = this;
+    self.prepare(resources);
 
-    // TODO: split into concurrent batches, then per each iteration to async.parallel
-    self.loopTimeout(0, tasks.length, self.requestTimeout, function (i) {
-        try {
-            tasks[i]();
-        } catch (e) {
-            console.error(e);
-        }
-    });
+    if (!self._dispatchProcess) {
+        self._dispatchProcess = setInterval(function () {
+            try {
+                if (self.getTaskCount() === 0) {
+                    return;
+                }
+
+                var i = 0,
+                    concurrentTasks = [];
+
+                for (i; i < self.concurrentLimit; i++) {
+                    concurrentTasks.push(self.tasks.shift());
+                }
+
+                async.parallel(concurrentTasks);
+
+            } catch (e) {
+                console.log(e);
+            }
+        }, self.requestTimeout);
+    }
 };
 
 module.exports = Dispatcher;

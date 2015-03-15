@@ -9,10 +9,19 @@ var foundItem = new Schema({
     url: {
         type: String,
         required: true,
-        unique: true
+        //   unique: true
+        index: 'hashed'
     },
-    time: {
+    foundDate: {
         type: Date,
+        required: false
+    },
+    crawlDate: {
+        type: Date,
+        required: false
+    },
+    parent: {
+        type: String,
         required: false
     }
 }/*,{autoIndex: false}*/);

@@ -3,7 +3,7 @@
  */
 'use strict';
 
-var FoundModel = require('../../models/found');
+var FoundModel = require('../../models/foundItem');
 
 module.exports = {
 

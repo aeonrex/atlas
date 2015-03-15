@@ -5,7 +5,7 @@
 
 var frontier = [],
     inProcess = false,
-    dataProvider = require('./dataProviders/mongodb/frontier');
+    dataProvider = require('./dataProviders/mongodb/frontierItems');
 
 var add = function (urls) {
     /* if (Array.isArray(urls)) {
