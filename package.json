@@ -18,7 +18,7 @@
   "homepage": "https://github.com/t4ks/atlas",
   "dependencies": {
     "async": "^0.9.0",
-    "linkscrape": "git+ssh://git@github.com:t4ks/node-linkscrape.git#parse-addition",
+    "linkscrape": "git+ssh@github.com:jprichardson/node-linkscrape.git",
     "mocha": "^2.2.0",
     "mongoose": "^3.8.24",
     "request": "^2.53.0",
